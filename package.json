@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "todo list project for The Odin Project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiscipuliCalculo/Todo-List.git"
+  },
+  "author": "Vitam Discipuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiscipuliCalculo/Todo-List/issues"
+  },
+  "homepage": "https://github.com/DiscipuliCalculo/Todo-List#readme",
+  "devDependencies": {
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
