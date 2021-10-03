@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(e){this.name=e,this.notes=[]}function t(e,t){e.push(t)}function n(e){const t=document.createElement("div");return t.textContent=e,t}let o=[],l=new e("default"),c=new e("2"),i=new e("3");t(o,l),t(o,c),t(o,i),console.log(o);for(let e=0;e<o.length;e++){let t=n(o[e].name);document.getElementById("project-list").appendChild(t)}})();

@@ -1,0 +1,32 @@
+#content {
+    height: 800px;
+    width: 80vw;
+}
+#notes {
+    display: inline-block;
+    height: 800px;
+    width: 60%;
+}
+
+#note-list {
+    display: grid;
+    grid-template-rows: 20, 1fr;
+}
+
+#projects {
+    display: inline-block;
+    height: 800px;
+    width: 30%;
+    border-right-style: solid;
+    border-color: gray;
+}
+
+#project-list {
+    display: grid;
+    grid-template-rows: 10, 1fr;
+}
+
+.title-box {
+    border-bottom-style: solid;
+    border-color: gray;
+}
