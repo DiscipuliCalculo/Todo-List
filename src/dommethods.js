@@ -4,3 +4,9 @@ export function createDiv(text) {
     return newDiv;
 };
 
+export function selectDiv(div) {
+    document.getElementById(div).addEventListener("click", (e) => {
+        return e.currentTarget;
+    })
+}
+

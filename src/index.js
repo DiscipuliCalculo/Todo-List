@@ -17,3 +17,11 @@ for (let i = 0; i < projectList.length; i++) {
     const shownProjects = document.getElementById('project-list');
     shownProjects.appendChild(newDiv);
 };
+
+/*
+for (let i = 0; i < projectList[selected]['notes'].length; i++) {
+    let newDiv = createDiv(projectList[selected]['notes'][i].description);
+    const shownNotes = document.getElementById('note-list');
+    shownNotes.appendChild(newDiv);
+};
+*/
