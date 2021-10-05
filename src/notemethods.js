@@ -1,8 +1,15 @@
+/*
 function Note(title, description, dueDate, priority ) {
     this.title = title;
     this.description = description;
     this.dueDate = dueDate;
     this.priority = priority;
+};
+*/
+
+export function Note(title, description) {
+    this.title = title;
+    this.description = description;
 };
 
 export function Project(projectName) {
@@ -13,5 +20,3 @@ export function Project(projectName) {
 export function addProject(projectList, newProject) {
     projectList.push(newProject);
 };
-
-//export { Note, Project, addProject };
